@@ -1,4 +1,4 @@
-package com.brunafenali.finanas // ou o nome correto do seu pacote
+package com.brunafenali.finanas
 
 import android.os.Bundle
 import android.widget.*
@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var txtSaldo: TextView
     private lateinit var listView: ListView
 
-    // Verificar
+
     private var moedaAtual = Moeda.EUR
     private val transacoesMockadas = listOf(
         Transacao(TipoTransacao.ENTRADA, 2500.0, "Salário", "Julho", System.currentTimeMillis(), Moeda.EUR),
